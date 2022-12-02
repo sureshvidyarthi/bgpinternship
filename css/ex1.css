@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: purple;
 }
 
@@ -9,4 +9,162 @@ div {
 
 span {
     background-color: white;
+} */
+
+/* body {
+    background-image: url("/htmlelements/car.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+} */
+
+/* img {
+    opacity: 0.5;
+} */
+
+/* h1 {
+    border: 2px blue solid;
+} */
+
+/* h1 { */
+/* border-style: dashed; */
+/* border-style: dotted; */
+/* border-style: double; */
+/* border-style: inset; */
+/* border-style: outset; */
+/* border-style: solid; */
+/* color: purple;
+    border: 3px solid purple; */
+/* border-radius: 20px; */
+/* border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+/* } */
+
+/* h1 {
+    color: purple;
+    border: 2px solid purple;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+} */
+
+/* h2 {
+    border: 3px solid blue;
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
+
+} */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    background-color: blue;
+    margin-left: 200px;
+    margin-top: 200px;
+} */
+
+/* div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid purple;
+    background-color: purple;
+} */
+
+/* p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+} */
+
+/* h2 {
+    color: purple;
+    border: 2px solid purple;
+    margin-top: 200px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} */
+
+/* h2 {
+    text-decoration-line: underline;
+    text-decoration-color: purple;
+    text-decoration-style: double;
+
+}
+
+h1 {
+    text-transform: uppercase;
+} */
+
+/* p {
+    text-indent: 100px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-align: justify;
+} */
+
+/* h1 {
+    color: rebeccapurple;
+    text-shadow: 2px 2px 2px purple;
+} */
+
+/* h1 {
+    color: red;
+
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: red;
+} */
+
+/* .class1 {
+    color: red;
+} */
+
+/* .class1 {
+    color: red;
+}
+
+.class2 {
+    color: purple;
+} */
+
+/* h1 {
+    color: blue;
+} */
+
+#id1 {
+    color: brown;
+}
+
+#id1 {
+    color: aqua;
 }
