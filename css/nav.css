@@ -1,0 +1,19 @@
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    /* border: 2px solid blue; */
+    padding: 6px;
+}
+
+.nav {
+    background-color: blue;
+    height: 40px;
+}

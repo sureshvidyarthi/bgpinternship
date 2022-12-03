@@ -161,10 +161,99 @@ h3 {
     color: blue;
 } */
 
-#id1 {
+/* #id1 {
     color: brown;
 }
 
 #id1 {
     color: aqua;
+} */
+
+/* .div1 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid purple;
+    background-color: purple;
+}
+
+.div2 {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(12, 11, 12);
+    margin: 10px;
+    background-color: black;
+} */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+h2:hover {
+    color: purple;
+}
+
+.div1 {
+    height: 100px;
+    width: 100%;
+    border: 2px solid blue;
+    /* overflow: scroll; */
+    overflow: auto;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    margin-bottom: 30px;
+}
+
+/* a {
+    text-decoration-line: none;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+    margin-left: 220px;
+}
+
+a:hover {
+    border: 1.5px solid purple;
+    color: purple;
+    background-color: white;
+} */
+
+.div2 {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-weight: lighter;
+    transform: rotate(45deg);
+}
+
+table {
+    border: 2px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid blue;
+    padding: 5px;
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+    font-size: 18px;
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    border: solid purple;
+    margin-top: 10px;
+    background-color: purple;
+    /* transform: translate(100px, 200px); */
+    /* transform: rotate(45deg); */
+    /* transform: scaleX(1.2);
+    transform: scaleY(1.2); */
+    /* transform: scale(0.5, 0.5); */
+    /* transform: skewY(45deg); */
+    transform: skew(20deg, 10deg);
 }
