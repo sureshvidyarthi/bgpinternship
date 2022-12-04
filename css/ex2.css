@@ -1,0 +1,56 @@
+.div1 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    transition: height 2s, width 2s, transform 4s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function: linear; */
+}
+
+.div1:hover {
+    height: 400px;
+    width: 400px;
+    /* transform: rotate(360deg); */
+    transform: rotate(4000deg);
+}
+
+.heart-shape {
+    margin-left: 400px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: rgb(223, 2, 2);
+    transition: transform 2s;
+}
+
+.heart-shape:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.heart-shape:before,
+.heart-shape:after {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgb(223, 2, 2);
+}
+
+.heart-shape:before {
+    bottom: 0px;
+    left: -100px;
+}
+
+.heart-shape:after {
+    top: -100px;
+    right: 0px;
+}

@@ -243,17 +243,17 @@ td {
     font-size: 18px;
 }
 
-.div3 {
+/* .div3 {
     height: 100px;
     width: 100px;
     border: solid purple;
     margin-top: 10px;
     background-color: purple;
-    /* transform: translate(100px, 200px); */
-    /* transform: rotate(45deg); */
-    /* transform: scaleX(1.2);
+    transform: translate(100px, 200px); */
+/* transform: rotate(45deg); */
+/* transform: scaleX(1.2);
     transform: scaleY(1.2); */
-    /* transform: scale(0.5, 0.5); */
-    /* transform: skewY(45deg); */
-    transform: skew(20deg, 10deg);
-}
+/* transform: scale(0.5, 0.5); */
+/* transform: skewY(45deg); */
+/* transform: skew(20deg, 10deg);
+/* } */
